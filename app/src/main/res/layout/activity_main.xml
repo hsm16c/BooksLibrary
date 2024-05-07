@@ -1,0 +1,46 @@
+<!-- login_signup_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gemini">
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombutton"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Password"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custombutton"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custombutton"
+        android:text="Login" />
+
+
+    <Button
+        android:id="@+id/btntoSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:text="Don't have an account? Sign up here"
+        android:textColor="@color/black" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<!-- main_dashboard_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bck2">
+
+    <Button
+        android:id="@+id/btnAddBook"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Add New Book"
+        android:background="@drawable/custombutton"
+        android:padding="10dp"
+        android:layout_marginTop="150dp"/>
+    <Button
+        android:id="@+id/list_book"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/custombutton"
+        android:layout_height="wrap_content"
+        android:text="My List"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/remnddbtn"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/custombutton"
+        android:layout_height="wrap_content"
+        android:text="Popular Books"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/custombutton"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>
